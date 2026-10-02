@@ -1,0 +1,24 @@
+SEARCH ARRAY JAVA ALGORTHMS
+
+    // Checks for a specific value and prints out 
+    // a message based on availabilty
+    public static void check(Integer [] myAge, int toCheckValue){
+        boolean test = false;
+        for(int element : myAge){
+            if(element == toCheckValue){
+                test = true;
+                System.out.println(toCheckValue + " exists: " + test);
+                System.out.println("\n*This is without changing ARRAY TO LIST*");
+                break;
+            }
+            else{
+                System.out.println(toCheckValue + " doesn't exist: " + test);
+                System.out.println("\n*This is without changing ARRAY TO LIST*");
+                break;
+            }
+        }
+    }
+
+    ArrayList<Integer> array1 = new ArrayList<>(Arrays.asList(arr));
+
+    

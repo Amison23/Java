@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2, button{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    text-transform: capitalize;
+    color: white;
+    background: rgb(149, 149, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+}
+
+.sidebar{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 98, 98);
+    gap: 1rem;
+    padding:5%;
+    color: #fff;
+    border-right: 2px black solid;
+
+    
+}
+
+.form_container{
+    background: palegreen;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+input{
+    padding: 5%;
+    height: 1rem;
+}
+
+.form_buttons{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 70px;
+    margin: 5px;
+    border-radius: 10px;
+    background: aqua;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.admin{
+    gap: 2rem;
+}
